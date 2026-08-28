@@ -1,5 +1,0 @@
-[console_scripts]
-mission_controller = warehouse_robot.mission_controller:main
-obstacle_spawner = warehouse_robot.obstacle_spawner:main
-replan_monitor = warehouse_robot.replan_monitor:main
-
