@@ -1,0 +1,53 @@
+[0.887s] Invoking command in '/home/varun/ros2_ws/src/warehouse_robot': PYTHONPATH=/home/varun/ros2_ws/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/varun/ros2_ws/build/warehouse_robot/build install --record /home/varun/ros2_ws/build/warehouse_robot/install.log --single-version-externally-managed install_data
+[1.216s] running egg_info
+[1.217s] creating ../../build/warehouse_robot/warehouse_robot.egg-info
+[1.220s] writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO
+[1.220s] writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt
+[1.221s] writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt
+[1.221s] writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt
+[1.222s] writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt
+[1.222s] writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[1.226s] reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[1.227s] writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[1.227s] running build
+[1.227s] running build_py
+[1.228s] creating /home/varun/ros2_ws/build/warehouse_robot/build
+[1.228s] creating /home/varun/ros2_ws/build/warehouse_robot/build/lib
+[1.229s] creating /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot
+[1.229s] copying warehouse_robot/__init__.py -> /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot
+[1.230s] copying warehouse_robot/mission_controller.py -> /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot
+[1.230s] copying warehouse_robot/replan_monitor.py -> /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot
+[1.230s] copying warehouse_robot/obstacle_spawner.py -> /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot
+[1.230s] copying warehouse_robot/map.py -> /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot
+[1.231s] running install
+[1.232s] running install_lib
+[1.234s] creating /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.235s] copying /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot/__init__.py -> /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.235s] copying /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot/mission_controller.py -> /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.236s] copying /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot/replan_monitor.py -> /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.236s] copying /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot/obstacle_spawner.py -> /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.236s] copying /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot/map.py -> /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+[1.236s] byte-compiling /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/__init__.py to __init__.cpython-310.pyc
+[1.238s] byte-compiling /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/mission_controller.py to mission_controller.cpython-310.pyc
+[1.240s] byte-compiling /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/replan_monitor.py to replan_monitor.cpython-310.pyc
+[1.242s] byte-compiling /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/obstacle_spawner.py to obstacle_spawner.cpython-310.pyc
+[1.244s] byte-compiling /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/map.py to map.cpython-310.pyc
+[1.245s] running install_data
+[1.245s] creating /home/varun/ros2_ws/install/warehouse_robot/share/ament_index
+[1.245s] creating /home/varun/ros2_ws/install/warehouse_robot/share/ament_index/resource_index
+[1.246s] creating /home/varun/ros2_ws/install/warehouse_robot/share/ament_index/resource_index/packages
+[1.247s] copying resource/warehouse_robot -> /home/varun/ros2_ws/install/warehouse_robot/share/ament_index/resource_index/packages
+[1.247s] copying package.xml -> /home/varun/ros2_ws/install/warehouse_robot/share/warehouse_robot
+[1.248s] creating /home/varun/ros2_ws/install/warehouse_robot/share/warehouse_robot/launch
+[1.249s] copying launch/warehouse_mission.launch.py -> /home/varun/ros2_ws/install/warehouse_robot/share/warehouse_robot/launch
+[1.249s] creating /home/varun/ros2_ws/install/warehouse_robot/share/warehouse_robot/maps
+[1.249s] copying maps/map.yaml -> /home/varun/ros2_ws/install/warehouse_robot/share/warehouse_robot/maps
+[1.250s] copying maps/map.pgm -> /home/varun/ros2_ws/install/warehouse_robot/share/warehouse_robot/maps
+[1.250s] running install_egg_info
+[1.254s] Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info
+[1.255s] running install_scripts
+[1.288s] Installing mission_controller script to /home/varun/ros2_ws/install/warehouse_robot/lib/warehouse_robot
+[1.289s] Installing obstacle_spawner script to /home/varun/ros2_ws/install/warehouse_robot/lib/warehouse_robot
+[1.289s] Installing replan_monitor script to /home/varun/ros2_ws/install/warehouse_robot/lib/warehouse_robot
+[1.289s] writing list of installed files to '/home/varun/ros2_ws/build/warehouse_robot/install.log'
+[1.330s] Invoked command in '/home/varun/ros2_ws/src/warehouse_robot' returned '0': PYTHONPATH=/home/varun/ros2_ws/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/varun/ros2_ws/build/warehouse_robot/build install --record /home/varun/ros2_ws/build/warehouse_robot/install.log --single-version-externally-managed install_data

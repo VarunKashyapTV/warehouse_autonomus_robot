@@ -1,0 +1,22 @@
+[1.562s] Invoking command in '/home/varun/ros2_ws/src/warehouse_robot': PYTHONPATH=/home/varun/ros2_ws/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/varun/ros2_ws/build/warehouse_robot/build install --record /home/varun/ros2_ws/build/warehouse_robot/install.log --single-version-externally-managed install_data
+[2.127s] running egg_info
+[2.127s] writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO
+[2.127s] writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt
+[2.127s] writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt
+[2.128s] writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt
+[2.128s] writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt
+[2.129s] reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[2.130s] writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+[2.130s] running build
+[2.130s] running build_py
+[2.130s] running install
+[2.131s] running install_lib
+[2.138s] running install_data
+[2.138s] running install_egg_info
+[2.141s] removing '/home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.142s] Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info
+[2.143s] running install_scripts
+[2.197s] Installing mission_controller script to /home/varun/ros2_ws/install/warehouse_robot/lib/warehouse_robot
+[2.197s] Installing replan_monitor script to /home/varun/ros2_ws/install/warehouse_robot/lib/warehouse_robot
+[2.197s] writing list of installed files to '/home/varun/ros2_ws/build/warehouse_robot/install.log'
+[2.244s] Invoked command in '/home/varun/ros2_ws/src/warehouse_robot' returned '0': PYTHONPATH=/home/varun/ros2_ws/build/warehouse_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/warehouse_robot build --build-base /home/varun/ros2_ws/build/warehouse_robot/build install --record /home/varun/ros2_ws/build/warehouse_robot/install.log --single-version-externally-managed install_data
