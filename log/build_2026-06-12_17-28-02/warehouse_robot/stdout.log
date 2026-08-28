@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/warehouse_robot/warehouse_robot.egg-info
+writing ../../build/warehouse_robot/warehouse_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/warehouse_robot/warehouse_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/warehouse_robot/warehouse_robot.egg-info/entry_points.txt
+writing requirements to ../../build/warehouse_robot/warehouse_robot.egg-info/requires.txt
+writing top-level names to ../../build/warehouse_robot/warehouse_robot.egg-info/top_level.txt
+writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/warehouse_robot/warehouse_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/varun/ros2_ws/build/warehouse_robot/build
+creating /home/varun/ros2_ws/build/warehouse_robot/build/lib
+creating /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot
+copying warehouse_robot/__init__.py -> /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot
+running install
+running install_lib
+creating /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+copying /home/varun/ros2_ws/build/warehouse_robot/build/lib/warehouse_robot/__init__.py -> /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot
+byte-compiling /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/varun/ros2_ws/install/warehouse_robot/share/ament_index
+creating /home/varun/ros2_ws/install/warehouse_robot/share/ament_index/resource_index
+creating /home/varun/ros2_ws/install/warehouse_robot/share/ament_index/resource_index/packages
+copying resource/warehouse_robot -> /home/varun/ros2_ws/install/warehouse_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/varun/ros2_ws/install/warehouse_robot/share/warehouse_robot
+running install_egg_info
+Copying ../../build/warehouse_robot/warehouse_robot.egg-info to /home/varun/ros2_ws/install/warehouse_robot/lib/python3.10/site-packages/warehouse_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/varun/ros2_ws/build/warehouse_robot/install.log'
