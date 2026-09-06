@@ -79,4 +79,4 @@ At the prompt, enter waypoints as `x,y` (e.g. `1.2,1.3`), or `q` to quit. The co
 
 ## Demo
 
-*(add a link to a recorded demo video here once available)*
+"not ready still  will be availible soon"
