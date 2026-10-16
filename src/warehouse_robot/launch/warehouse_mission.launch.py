@@ -107,16 +107,9 @@ def generate_launch_description():
     # 5. Initial pose — wait for /odom to actually have a live publisher
     # (i.e. the robot has really spawned in Gazebo), not just for AMCL's
     # lifecycle state, which goes active long before the robot exists.
-    set_initial_pose = ExecuteProcess(
-        cmd=[
-            'bash', '-c',
-            'until ros2 topic info /odom 2>/dev/null | grep -q "Publisher count: [1-9]"; '
-            'do sleep 1; done; sleep 2; '
-            "ros2 topic pub /initialpose geometry_msgs/msg/PoseWithCovarianceStamped "
-            "\"{header: {frame_id: 'map'}, pose: {pose: {position: "
-            "{x: 0.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}}}\" --once -w 1"
-        ],
-        output='screen'
+    set_initial_pose = Node(
+        package=pkg_name, executable='initial_pose_publisher', name='initial_pose_publisher',
+        output='screen', parameters=[{'use_sim_time': use_sim_time}]
     )
 
     return LaunchDescription([

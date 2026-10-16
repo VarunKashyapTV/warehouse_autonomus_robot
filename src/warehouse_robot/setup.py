@@ -28,6 +28,7 @@ setup(
             'mission_controller = warehouse_robot.mission_controller:main',
             'replan_monitor = warehouse_robot.replan_monitor:main',
             'obstacle_spawner = warehouse_robot.obstacle_spawner:main',
+            'initial_pose_publisher = warehouse_robot.initial_pose_publisher:main',
         ],
     },
 )
