@@ -10,9 +10,9 @@ The project demonstrates autonomous navigation, dynamic obstacle spawning, real-
 
 **Watch the warehouse robot navigate autonomously and dynamically replan its path when new obstacles appear.**
 
-[▶ Watch the Warehouse Robot Demo](media/warehouse.mp4)
+[▶ Watch the Warehouse Robot Demo](https://github.com/user-attachments/assets/e1b1434a-beb8-4418-8a6c-bd2b2a4d3f2b)
 
-> The demo video is available in the `media/warehouse.mp4` repository folder. For an inline GitHub video player, replace this link with a GitHub video attachment URL after uploading the video through the README editor.
+> The demo video is available in the `media/warehouse.mp4` repository folder
 
 ---
 
