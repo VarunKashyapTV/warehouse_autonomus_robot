@@ -401,7 +401,7 @@ Further improvements to local obstacle avoidance and multi-robot functionality r
 
 B.Tech – Robotics and Artificial Intelligence
 
-GitHub: [Your GitHub Profile](https://github.com/YOUR_USERNAME)
+GitHub: [Varun Kashyap](https://github.com/VarunKashyapTV)
 
 ---
 
